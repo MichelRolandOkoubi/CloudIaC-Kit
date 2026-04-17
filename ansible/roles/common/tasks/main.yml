@@ -1,0 +1,18 @@
+---
+# Update system packages / Mettre à jour les paquets du système
+- name: Update apt cache and upgrade all packages
+  become: true
+  apt:
+    update_cache: yes
+    upgrade: dist
+
+# Install baseline utilities / Installer les utilitaires de base
+- name: Install common packages
+  become: true
+  apt:
+    name:
+      - curl
+      - htop
+      - git
+      - unzip
+    state: present

@@ -1,0 +1,7 @@
+---
+# Main Playbook to configure all hosts / Playbook principal pour configurer tous les hôtes
+- name: Configure Web Servers
+  hosts: all
+  roles:
+    - common
+    - webserver

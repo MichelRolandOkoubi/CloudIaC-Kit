@@ -1,0 +1,25 @@
+---
+# Step 1: Install the Nginx web server package from the default repositories. / 
+# Étape 1 : Installer le paquet du serveur web Nginx à partir des dépôts par défaut.
+- name: Install Nginx
+  become: true
+  apt:
+    name: nginx
+    state: present
+
+# Step 2: Ensure the Nginx service is started and configured to start automatically on boot. / 
+# Étape 2 : S'assurer que le service Nginx est démarré et configuré pour se lancer au démarrage.
+- name: Start and enable Nginx
+  become: true
+  service:
+    name: nginx
+    state: started
+    enabled: yes
+
+# Step 3: Deploy a basic HTML page to test the web server. / 
+# Étape 3 : Déployer une page HTML de base pour tester le serveur web.
+- name: Copy simple index.html
+  become: true
+  copy:
+    content: "<h1>Welcome to the Multi-Cloud Starter Kit</h1><p>Managed by Ansible</p>"
+    dest: /var/www/html/index.html

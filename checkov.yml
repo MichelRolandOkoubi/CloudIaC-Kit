@@ -1,0 +1,5 @@
+check:
+  - CKV_AWS_2: "Ensure VPC subnets do not assign public IP by default - Allowed for this starter kit demo"
+  - CKV_AWS_21: "Ensure all data stored in the RDS bucket is securely encrypted at rest"
+skip-check:
+  - CKV_AWS_144: "Ensure that S3 bucket has cross-region replication enabled - Not needed for starter kit"
