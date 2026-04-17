@@ -3,7 +3,7 @@
 [![Lint-Security](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/lint-security.yml/badge.svg)](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/lint-security.yml)
 [![Terraform-Plan](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/terraform-plan.yml/badge.svg)](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/terraform-plan.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Author](https://img.shields.io/badge/Author-Michel%20Okoubi%20%E2%80%93%20Staff%20Engineer-blueviolet)](https://github.com/pulsar-jvm/pulsar)
+[![Author](https://img.shields.io/badge/Author-Michel%20Okoubi%20%E2%80%93%20Staff%20Engineer-black)](https://github.com/pulsar-jvm/pulsar)
 
 
 A production-ready Infrastructure as Code (IaC) template supporting AWS, Azure, and GCP. This kit demonstrates architectural best practices, CI/CD integration, and pedagogical documentation in English and French.
