@@ -20,7 +20,7 @@ Deploy the AWS Dev environment in 3 steps:
 2. **Initialize & Apply**:
    ```bash
    cd terraform/environments/dev/aws
-   terraform init && terraform apply -var="db_password=securepassword123"
+   terraform init && terraform apply -var="db_password=yoursecurepassword"
    ```
 3. **Configure Servers**:
    ```bash
