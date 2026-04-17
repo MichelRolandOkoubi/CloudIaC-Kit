@@ -1,7 +1,7 @@
 # CloudIaC-Kit Multi-Cloud IaC Starter Kit
 
-[![Lint-Security](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/upload/actions/workflows/lint-security.yml/badge.svg)](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/upload/actions/workflows/lint-security.yml)
-[![Terraform-Plan](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/upload/actions/workflows/terraform-plan.yml/badge.svg)](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/upload/actions/workflows/terraform-plan.yml)
+[![Lint-Security](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/lint-security.yml/badge.svg)](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/lint-security.yml)
+[![Terraform-Plan](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/terraform-plan.yml/badge.svg)](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/terraform-plan.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A production-ready Infrastructure as Code (IaC) template supporting AWS, Azure, and GCP. This kit demonstrates architectural best practices, CI/CD integration, and pedagogical documentation in English and French.
