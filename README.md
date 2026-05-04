@@ -1,4 +1,4 @@
-# CloudIaC-Kit Multi-Cloud IaC Starter Kit
+# CloudIaC-Kit Multi-Cloud IaC Starter Kit & CLI
 
 [![Lint-Security](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/lint-security.yml/badge.svg)](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/lint-security.yml)
 [![Terraform-Plan](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/terraform-plan.yml/badge.svg)](https://github.com/MichelRolandOkoubi/CloudIaC-Kit/actions/workflows/terraform-plan.yml)
@@ -6,7 +6,7 @@
 [![Author](https://img.shields.io/badge/Author-Michel%20Okoubi%20%E2%80%93%20Staff%20Engineer-black)](https://github.com/pulsar-jvm/pulsar)
 
 
-A production-ready Infrastructure as Code (IaC) template supporting AWS, Azure, and GCP. This kit demonstrates architectural best practices, CI/CD integration, and pedagogical documentation in English and French.
+A production-ready Infrastructure as Code (IaC) template supporting AWS, Azure, and GCP With CLI mode. This kit demonstrates architectural best practices, CI/CD integration, and pedagogical documentation in English and French.
 
 ## ⚡ Quickstart
 
